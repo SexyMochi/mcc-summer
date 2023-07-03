@@ -23,13 +23,6 @@ def predict(model, df):
 def main():
     st.markdown("<br>", unsafe_allow_html=True)
     st.title("Washington D.C. Residential Properties Price Prediction 🏠")
-    st.write(
-        """
-    [![GitHub](https://img.shields.io/github/watchers/elvanselvano/purwadhika-final-project?style=social)](https://github.com/elvanselvano/purwadhika-final-project)
-    [![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/elvanselvano/purwadhika-final-project) 
-    [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/elvanselvano/purwadhika-final-project/blob/main/LICENSE)
-    """
-    )
 
     image = Image.open("./assets/wallpaper.jpg")
     st.image(image)
@@ -236,19 +229,19 @@ def main():
 
         if lower >= 100000:
             st.success(
-                "✅ Based on the features, the price of the property is $"
+                "✅ Based on the features, the price of the property is 💲"
                 + str(int(predicted_price))
                 + ". This type of house typically sold from $"
                 + str(int(lower))
-                + " up to $"
+                + " up to 💲"
                 + str(int(upper))
                 + "."
             )
         else:
             st.success(
-                "✅ Based on the features, the price of the property is $"
+                "✅ Based on the features, the price of the property is 💲"
                 + str(int(predicted_price))
-                + ". This type of house typically sold up to $"
+                + ". This type of house typically sold up to 💲"
                 + str(int(upper))
                 + "."
             )
