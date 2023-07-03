@@ -255,7 +255,7 @@ def main():
 
     st.write("---")
     # Data Section
-    expander_bar = st.beta_expander("Data Description")
+    expander_bar = st.expander("Data Description")
     expander_bar.markdown(
         """
     |            Feature            |                         Description                          | 
