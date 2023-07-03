@@ -231,7 +231,7 @@ def main():
             st.success(
                 "✅ Based on the features, the price of the property is 💲"
                 + str(int(predicted_price))
-                + ". This type of house typically sold from $"
+                + ". This type of house typically sold from 💲"
                 + str(int(lower))
                 + " up to 💲"
                 + str(int(upper))
