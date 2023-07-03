@@ -7,6 +7,6 @@ Requests==2.31.0
 streamlit==1.24.0
 streamlit_lottie==0.0.5
 streamlit_option_menu==0.3.6
-pycaret==2.3.2
+pycaret==3.0.4
 catboost>=0.23.2
 pandas==1.1.5
