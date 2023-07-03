@@ -13,6 +13,4 @@ st.write("2301871920 - Calvin Alfrido ⚡ ")
 st.write("2301877994 - Elvan Selvano  🚄 ")
 st.write("2301883624 - Franky Bryan   🤖 ")
 
-
-
 st.sidebar.success("Select a page above.")
